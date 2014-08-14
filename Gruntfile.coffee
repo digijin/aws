@@ -5,7 +5,7 @@ module.exports = (grunt) ->
   grunt.initConfig {
     watch:
       src:
-        files: ['Gruntfile.coffee','index.coffee']
+        files: ['**/*.*']
         tasks: ['run']
     coffeelint:
       app: ['Gruntfile.coffee','index.coffee']
